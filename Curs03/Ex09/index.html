@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<form action="/">
+
+<label for="name">Nume: *</label>
+<input type="text"
+       name="name"
+       id="name"
+       minlength="5"
+       maxlength="30"
+       required
+       placeholder="Introdu numele tau"> <br> <br>
+
+<label for="surname">Prenume: *</label>
+<input type="text"
+       name="surname"
+       id="surname"
+       minlength="5"
+       maxlength="30"
+       required
+       placeholder="Introdu prenumele tau"> <br> <br>
+
+
+<label for="message">Mesajul tau: *</label>
+<textarea name="message"
+          id="message"
+          cols="30"
+          rows="4"
+          >Introdu mesajul tau
+
+        </textarea>
+<br><br>
+
+      <label for="details"
+           >Detalii:</label>
+      <textarea name="details"
+                id="details"
+                cols="30"
+                rows="8"></textarea>
+<br><br>
+
+<button type="submit" id="submit" title="Trimite">Trimite</button>
+<button type="reset">Reseteaza</button>
+</form>
+
+
+</body>
+</html>

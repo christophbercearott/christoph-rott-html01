@@ -1,6 +1,123 @@
 
-
+header header-bottom {
+  background-color: beige;
+}
 footer {
   background-color: #E8E8E8;
 }
-/* footer background */
+
+li {
+  list-style-type: none;
+}
+
+body{
+width:80;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+align-self: center;
+padding-left: 100px;
+padding-right:100px;
+border-style: inherit;
+}
+.new-arrivals{
+  top: 488px;
+  left: 1532px;
+  width: 106px;
+  height: 26px;
+  text-align: center;
+  font: Regular Roman 19px/22px Playfair Display;
+  letter-spacing: 0.28px;
+  color:white;
+  text-transform: uppercase;
+  opacity: 1;
+
+}
+
+.brands {
+  top: 488px;
+left: 570px;
+width: 74px;
+height: 26px;
+text-align: center;
+font: Regular Roman 19px/22px Playfair Display;
+letter-spacing: 0.28px;
+color: #E8E8E8;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.men {
+  top: 488px;
+left: 793px;
+width: 58px;
+height: 26px;
+text-align: center;
+font: Regular Roman 19px/22px Playfair Display;
+letter-spacing: 0.28px;
+color: #E8E8E8;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.women {
+  top: 488px;
+left: 1000px;
+width: 89px;
+height: 26px;
+text-align: center;
+font: Regular Roman 19px/22px Playfair Display;
+letter-spacing: 0.28px;
+color: #E8E8E8;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.accessories {
+  top: 488px;
+left: 1242px;
+width: 128px;
+height: 26px;
+text-align: center;
+font: Regular Roman 19px/22px Playfair Display;
+letter-spacing: 0.28px;
+color: #E8E8E8;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.lookbook {
+  top: 488px;
+left: 1532px;
+width: 106px;
+height: 26px;
+text-align: center;
+font: Regular Roman 19px/22px Playfair Display;
+letter-spacing: 0.28px;
+color: #E8E8E8;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.nav-primary {
+  top: 473px;
+left: 0px;
+width: 1920px;
+height: 52px;
+background: #2B2B2B 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  padding: 0px;
+  margin: 0px 50px 33px;
+}
